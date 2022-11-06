@@ -1,0 +1,91 @@
+body {
+	font-size: 20px;
+	font-family: sans-serif;
+	
+
+}
+h1 {
+	border-bottom: 2px solid black;
+	padding-bottom:20px ;
+}
+.kenar {
+	border-left: 4px solid darkblue ;
+	padding-left: 20px;
+
+}
+
+#date {
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	color: gray;
+}
+
+.image {
+	height: 300px;
+	width: 22.5%;
+	float: left;
+	margin: 1.25%;
+	background-size: cover;
+	background-position: center;
+	filter: blur(2px);
+	transition: 0.3s;
+}
+.image:hover {
+	filter: blur(5px);
+	filter: drop-shadow(11px 11px 10px black);
+}
+
+
+
+
+
+.image1 {
+	background-image: url(1.jpg) ;
+}
+.image2 {
+	background-image: url(2.jpg) ;
+}
+.image3 {
+	background-image: url(3.jpg) ;
+}
+.image4 {
+	background-image: url(4.jpg) ;
+}
+.image5 {
+	background-image: url(5.jpg) ;
+}
+.image6 {
+	background-image: url(6.jpg) ;
+}
+.image7 {
+	background-image: url(7.jpg) ;
+}
+.image8 {
+	background-image: url(8.jpg) ;
+}
+
+.img {
+	height: 300px;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+
+	}
+.img1 {
+	background-image: url(da.jpg);
+	}
+.img2 {
+	background-image: url(saa.jpg);
+
+	}
+.img3 {
+	background-image: url(or.png);
+	}
+
+
+h5 {
+	border-bottom: 3px;
+	text-align: center;
+
+
+}
